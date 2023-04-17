@@ -1,0 +1,37 @@
+package Steps;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class LoginSteps {
+
+@Given("User navigates to website")
+public void user_navigates_to_website() {
+ System.out.println("test");  
+}
+
+@When("User validates homepage")
+public void user_validates_homepage() {
+    System.out.println("test");
+}
+
+@Then("user enters username")
+public void user_enters_username() {
+    System.out.println("test");
+  
+}
+
+@Then("user enters password")
+public void user_enters_password() {
+    System.out.println("test");
+
+}
+
+@Then("user clicks on sign in button")
+public void user_clicks_on_sign_in_button() {
+    System.out.println("test");
+ 
+}
+
+}
